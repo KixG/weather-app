@@ -1,4 +1,5 @@
 import weather from "../assets/images/weather.jpg";
+import text from "../assets/images/text.png";
 
 export default {
     dashboard: {
@@ -10,6 +11,13 @@ export default {
                 text: "",
                 image: weather,
                 target: "/weather-app",
+            },
+            {
+                id: 2,
+                title: "Quotes",
+                text: "",
+                image: text,
+                target: "/quotes",
             }
         ]
     }

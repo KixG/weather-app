@@ -11,6 +11,7 @@ import {
 import Navigation from './containers/Navigation';
 import Dashboard from './containers/Dashboard';
 import WeatherApp from './containers/WeatherApp';
+import QuoteApp from './containers/QuoteApp';
 
 export default function App() {
 	return (
@@ -21,6 +22,9 @@ export default function App() {
 				<Switch>
 					<Route path="/weather-app">
 						<WeatherApp />
+					</Route>
+					<Route path="/quotes">
+						<QuoteApp />
 					</Route>
 					<Route path="/">
 						<Dashboard />
